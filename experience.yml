@@ -140,14 +140,14 @@ Experience:
         Snow_Block: 40
         Soul_Sand: 40
     Woodcutting:
-        Acacia: 50
-        Birch: 50
-        Dark_Oak: 50
-        Generic: 50
-        Jungle: 50
-        Redwood: 50
-        Huge_Mushroom_1: 50
-        Huge_Mushroom_2: 50
+        Acacia: 10
+        Birch: 10
+        Dark_Oak: 10
+        Generic: 10
+        Jungle: 10
+        Redwood: 10
+        Huge_Mushroom_1: 10
+        Huge_Mushroom_2: 10
     Herbalism:
         Allium: 300
         Azure_Bluet: 150
@@ -185,25 +185,25 @@ Experience:
         White_Tulip: 150
         Yellow_Flower: 100
     Mining:
-        Coal_Ore: 50
-        Diamond_Ore: 50
-        Emerald_Ore: 50
+        Coal_Ore: 10
+        Diamond_Ore: 10
+        Emerald_Ore: 10
         End_Bricks: 200
         Ender_Stone: 150
         Glowstone: 30
-        Gold_Ore: 50
+        Gold_Ore: 10
         Hard_Clay: 30
-        Iron_Ore: 50
-        Lapis_Ore: 50
+        Iron_Ore: 10
+        Lapis_Ore: 10
         Mossy_Cobblestone: 30
         Netherrack: 30
         Obsidian: 150
         Packed_Ice: 50
-        Quartz_Ore: 40
-        Redstone_Ore: 50
+        Quartz_Ore: 0
+        Redstone_Ore: 10
         Sandstone: 30
         Stained_Clay|*: 50
-        Stone|*: 30
+        Stone|*: 10
         Red_Sandstone: 100
         Prismarine: 70
         Purpur_Block: 200
