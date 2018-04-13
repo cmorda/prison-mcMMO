@@ -121,11 +121,11 @@ Experience:
     Archery:
         Distance_Multiplier: 0.025
     Fishing:
-        Raw_Fish: 800
-        Raw_Salmon: 800
-        Clownfish: 800
-        Pufferfish: 800
-        Shake: 50
+        Raw_Fish: 1500
+        Raw_Salmon: 1500
+        Clownfish: 1900
+        Pufferfish: 1700
+        Shake: 200
     Excavation:
         Clay: 40
         Dirt: 40
@@ -140,14 +140,14 @@ Experience:
         Snow_Block: 40
         Soul_Sand: 40
     Woodcutting:
-        Acacia: 90
-        Birch: 90
-        Dark_Oak: 90
-        Generic: 70
-        Jungle: 100
-        Redwood: 80
-        Huge_Mushroom_1: 70
-        Huge_Mushroom_2: 70
+        Acacia: 50
+        Birch: 50
+        Dark_Oak: 50
+        Generic: 50
+        Jungle: 50
+        Redwood: 50
+        Huge_Mushroom_1: 50
+        Huge_Mushroom_2: 50
     Herbalism:
         Allium: 300
         Azure_Bluet: 150
@@ -185,22 +185,22 @@ Experience:
         White_Tulip: 150
         Yellow_Flower: 100
     Mining:
-        Coal_Ore: 100
-        Diamond_Ore: 750
-        Emerald_Ore: 1000
+        Coal_Ore: 50
+        Diamond_Ore: 50
+        Emerald_Ore: 50
         End_Bricks: 200
         Ender_Stone: 150
         Glowstone: 30
-        Gold_Ore: 350
+        Gold_Ore: 50
         Hard_Clay: 30
-        Iron_Ore: 250
-        Lapis_Ore: 400
+        Iron_Ore: 50
+        Lapis_Ore: 50
         Mossy_Cobblestone: 30
         Netherrack: 30
         Obsidian: 150
         Packed_Ice: 50
-        Quartz_Ore: 100
-        Redstone_Ore: 150
+        Quartz_Ore: 40
+        Redstone_Ore: 50
         Sandstone: 30
         Stained_Clay|*: 50
         Stone|*: 30
@@ -260,7 +260,7 @@ Experience:
             Iron_Golem: 2.0
             Wither_Skeleton: 4.0
             Endermite: 2.0
-            Guardian: 3.0
+            Guardian: 1.0
             Elder_Guardian: 4.0
             Shulker: 2.0
             Donkey: 1.0
