@@ -232,31 +232,31 @@ Party:
     # To never kick old users, set to -1
     AutoKick_Interval: 12
     # Any user who hasn't connected in this many days will get kicked from their party
-    Old_Party_Member_Cutoff: 7
+    Old_Party_Member_Cutoff: 30
 
     # Settings for party share modes
     Sharing:
         ExpShare_bonus_base: 1.1
         ExpShare_bonus_increase: 1.05
         ExpShare_bonus_cap: 1.5
-        Range: 75.0
+        Range: 100000.0
 
     # Party members level up their party by earning individual experience
     # Newly created parties will not immediately have access to all the party features
     # and have to level up the party a bit before they can use them.
     Leveling:
-        Level_Cap: 10
+        Level_Cap: 1000
 
         # Uses the regular XP formula but is multiplied by <amount of party members> + <Xp_Curve_Modifier>
         Xp_Curve_Modifier: 3
         Near_Members_Needed: false
-        Inform_All_Party_Members_On_LevelUp: false
+        Inform_All_Party_Members_On_LevelUp: true
 
         Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 2
-        Alliance_UnlockLevel: 5
-        ItemShare_UnlockLevel: 8
-        XpShare_UnlockLevel: 10
+        Teleport_UnlockLevel: 1001
+        Alliance_UnlockLevel: 250
+        ItemShare_UnlockLevel: 1001
+        XpShare_UnlockLevel: 100
 
 #
 #  Settings for Abilities
@@ -327,7 +327,7 @@ Skills:
         Drops_Enabled: true
         Override_Vanilla_Treasures: true
         # Always catch fish, even when treasure is found
-        Extra_Fish: false
+        Extra_Fish: true
     Herbalism:
         Level_Cap: 0
         Prevent_AFK_Leveling: true
