@@ -66,7 +66,7 @@ Fishing:
     GOLD_SWORD:
         Amount: 1
         XP: 200
-        Rarity: UNCOMMON
+        Rarity: RARE
     GOLD_SPADE:
         Amount: 1
         XP: 200
@@ -74,11 +74,11 @@ Fishing:
     GOLD_PICKAXE:
         Amount: 1
         XP: 200
-        Rarity: UNCOMMON
+        Rarity: RARE
     GOLD_AXE:
         Amount: 1
         XP: 200
-        Rarity: UNCOMMON
+        Rarity: RARE
     GOLD_HOE:
         Amount: 1
         XP: 200
@@ -100,9 +100,9 @@ Fishing:
         XP: 200
         Rarity: UNCOMMON
     IRON_INGOT:
-        Amount: 5
+        Amount: 1
         XP: 200
-        Rarity: UNCOMMON
+        Rarity: EPIC
     GOLD_INGOT:
         Amount: 5
         XP: 200
@@ -110,7 +110,7 @@ Fishing:
     IRON_SWORD:
         Amount: 1
         XP: 200
-        Rarity: RARE
+        Rarity: EPIC
     IRON_SPADE:
         Amount: 1
         XP: 200
@@ -118,11 +118,11 @@ Fishing:
     IRON_PICKAXE:
         Amount: 1
         XP: 200
-        Rarity: RARE
+        Rarity: EPIC
     IRON_AXE:
         Amount: 1
         XP: 200
-        Rarity: RARE
+        Rarity: EPIC
     IRON_HOE:
         Amount: 1
         XP: 200
@@ -131,8 +131,8 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: RARE
-    ENDER_PEARL:
-        Amount: 1
+    ARROW:
+        Amount: 16
         XP: 200
         Rarity: RARE
     BLAZE_ROD:
@@ -160,13 +160,13 @@ Fishing:
         XP: 200
         Rarity: EPIC
     DIAMOND:
-        Amount: 5
+        Amount: 3
         XP: 200
-        Rarity: EPIC
+        Rarity: RECORD
     DIAMOND_SWORD:
         Amount: 1
         XP: 200
-        Rarity: LEGENDARY
+        Rarity: RECORD
     DIAMOND_SPADE:
         Amount: 1
         XP: 200
@@ -174,11 +174,11 @@ Fishing:
     DIAMOND_PICKAXE:
         Amount: 1
         XP: 200
-        Rarity: LEGENDARY
+        Rarity: RECORD
     DIAMOND_AXE:
         Amount: 1
         XP: 200
-        Rarity: LEGENDARY
+        Rarity: RECORD
     DIAMOND_HOE:
         Amount: 1
         XP: 200
@@ -312,9 +312,7 @@ Item_Drop_Rates:
 ###
 Enchantments_Rarity:
     COMMON:
-        EFFICIENCY: 1
         UNBREAKING: 1
-        FORTUNE: 1
         PROTECTION: 1
         FIRE_PROTECTION: 1
         FEATHER_FALLING: 1
@@ -322,26 +320,19 @@ Enchantments_Rarity:
         PROJECTILE_PROTECTION: 1
         RESPIRATION: 1
         THORNS: 1
-        SHARPNESS: 1
-        SMITE: 1
         BANE_OF_ARTHROPODS: 1
         POWER: 1
     UNCOMMON:
-        EFFICIENCY: 2
         PROTECTION: 2
         FIRE_PROTECTION: 2
         FEATHER_FALLING: 2
         BLAST_PROTECTION: 2
         PROJECTILE_PROTECTION: 2
-        SHARPNESS: 2
-        SMITE: 2
         BANE_OF_ARTHROPODS: 2
         KNOCKBACK: 1
-        LOOTING: 1
         POWER: 2
         PUNCH: 1
     RARE:
-        EFFICIENCY: 3
         UNBREAKING: 2
         PROTECTION: 3
         FIRE_PROTECTION: 3
@@ -349,26 +340,24 @@ Enchantments_Rarity:
         BLAST_PROTECTION: 3
         PROJECTILE_PROTECTION: 3
         RESPIRATION: 2
-        SHARPNESS: 3
-        SMITE: 3
         BANE_OF_ARTHROPODS: 3
         FIRE_ASPECT: 1
-        LOOTING: 2
         POWER: 3
     EPIC:
-        EFFICIENCY: 4
-        FORTUNE: 2
+        EFFICIENCY: 1
+        FORTUNE: 1
         AQUA_AFFINITY: 1
         THORNS: 2
-        SHARPNESS: 4
-        SMITE: 4
+        SHARPNESS: 1
+        SMITE: 1
         BANE_OF_ARTHROPODS: 4
+        LOOTING: 1
         POWER: 4
         FLAME: 1
     LEGENDARY:
-        EFFICIENCY: 5
+        EFFICIENCY: 2
         UNBREAKING: 3
-        FORTUNE: 3
+        FORTUNE: 2
         PROTECTION: 4
         FIRE_PROTECTION: 4
         FEATHER_FALLING: 4
@@ -377,12 +366,12 @@ Enchantments_Rarity:
         RESPIRATION: 3
         AQUA_AFFINITY: 1
         THORNS: 3
-        SHARPNESS: 5
-        SMITE: 5
+        SHARPNESS: 2
+        SMITE: 2
         BANE_OF_ARTHROPODS: 5
         KNOCKBACK: 2
         FIRE_ASPECT: 2
-        LOOTING: 3
+        LOOTING: 2
         SILK_TOUCH: 1
         POWER: 5
         PUNCH: 2
