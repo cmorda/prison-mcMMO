@@ -25,14 +25,14 @@ General:
     # Should mcMMO print out debug messages?
     Verbose_Logging: false
     # Should mcMMO over-write configs to update, or make new ones ending in .new?
-    Config_Update_Overwrite: true
+    Config_Update_Overwrite: false
     # Play level-up sounds
     LevelUp_Sounds: true
 
     # This should fix blocks being broken client side, but not server-side.
     # Enable to refresh the chunks around a player at the end of Super Breaker,
     # Giga Drill Breaker, and Berserk. Resource intensive for larger servers.
-    Refresh_Chunks: false
+    Refresh_Chunks: true
 
 #
 #  Settings for the mcMMO scoreboards
@@ -52,7 +52,7 @@ Scoreboard:
     Tips_Amount: 5
 
     # Add some more color on the board :-)
-    Rainbows: false
+    Rainbows: true
 
     # Display ability names?
     Ability_Names: true
@@ -268,7 +268,7 @@ Abilities:
         Only_Activate_When_Sneaking: false
     Cooldowns:
         Berserk: 240
-        Blast_Mining: 60
+        Blast_Mining: 1
         Giga_Drill_Breaker: 240
         Green_Terra: 240
         Serrated_Strikes: 240
@@ -288,7 +288,7 @@ Abilities:
         Tree_Feller_Threshold: 500
     Tools:
         # Use more tool durability while using abilities. Set Durability_Loss to 0 to disable the extra durability damage.
-        Durability_Loss: 1
+        Durability_Loss: 0
 
 #
 #  Settings for Skills
@@ -311,7 +311,7 @@ Skills:
         Prevent_Hopper_Transfer_Ingredients: false
         # Prevent Hoppers from transferring bottles into Brewing Stands
         Prevent_Hopper_Transfer_Bottles: false
-        Level_Cap: 0
+        Level_Cap: 1
     Archery:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
@@ -321,7 +321,7 @@ Skills:
         Enabled_For_PVE: true
         Level_Cap: 0
     Excavation:
-        Level_Cap: 0
+        Level_Cap: 1
     Fishing:
         Level_Cap: 0
         Drops_Enabled: true
@@ -329,13 +329,13 @@ Skills:
         # Always catch fish, even when treasure is found
         Extra_Fish: true
     Herbalism:
-        Level_Cap: 0
+        Level_Cap: 1
         Prevent_AFK_Leveling: true
     Mining:
         Level_Cap: 0
         Detonator_Name: FLINT_AND_STEEL
     Repair:
-        Level_Cap: 0
+        Level_Cap: 1
         Anvil_Messages: true
         Anvil_Placed_Sounds: true
         Anvil_Use_Sounds: true
@@ -343,7 +343,7 @@ Skills:
         # Ask for a confirmation when a player tries to repair an enchanted item
         Confirm_Required: true
     Salvage:
-        Level_Cap: 0
+        Level_Cap: 1
         Anvil_Messages: true
         Anvil_Placed_Sounds: true
         Anvil_Use_Sounds: true
@@ -359,7 +359,7 @@ Skills:
     Taming:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 1
         Call_Of_The_Wild:
             # Item_Material: Material of the item needed to summon the pet
             # Item_Amount: Amount of items required to summon the pet
@@ -393,12 +393,12 @@ Skills:
         Enabled_For_PVE: true
         Level_Cap: 0
         Block_Cracker:
-            SmoothBrick_To_CrackedBrick: true
+            SmoothBrick_To_CrackedBrick: false
         # When using Unarmed, picked up items will automatically get moved to a free slot instead of going in the slot
         # of your hand. Should item pickup be disabled when your entire inventory - except for your hand - is full?
         Item_Pickup_Disabled_Full_Inventory: true
         # Any attacks made without a tool, i.e. with one's open hand, a block, etc., will count as unarmed. 
-        Items_As_Unarmed: false
+        Items_As_Unarmed: true
     Woodcutting:
         Tree_Feller_Sounds: true
         Level_Cap: 0
@@ -464,7 +464,7 @@ Commands:
     mcmmo:
         Donate_Message: true
     inspect:
-        Max_Distance: 30.0
+        Max_Distance: 100000.0
     ptp:
         Cooldown: 120
         Warmup: 5
